@@ -49,7 +49,27 @@ public class FilterControl implements Filter {
 			rd = req.getRequestDispatcher(action);
 			rd.forward(req, res);
 			return;
-		case "Servlet2":
+		case "FormServ":
+			rd = req.getRequestDispatcher(action);
+			rd.forward(req, res);
+			return;
+		case "ViewRequest":
+			rd = req.getRequestDispatcher(action);
+			rd.forward(req, res);
+			return;
+		case "ApproveServ":
+			rd = req.getRequestDispatcher(action);
+			rd.forward(req, res);
+			return;
+		case "MessageServ":
+			rd = req.getRequestDispatcher(action);
+			rd.forward(req, res);
+			return;
+		case "Advance":
+			rd = req.getRequestDispatcher(action);
+			rd.forward(req, res);
+			return;
+		case "EmployeeReimDelete":
 			rd = req.getRequestDispatcher(action);
 			rd.forward(req, res);
 			return;
